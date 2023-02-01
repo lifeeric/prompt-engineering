@@ -223,4 +223,36 @@ The Irish Bee Conservation Project, Ireland, Apis mellifera, Varroa mite, 2019, 
 Tutorial to follow up: https://www.youtube.com/watch?v=67Ugw_l1md8&t=581s
 Learn about Zero-Shot, One-Shot, and a Few-Shot: https://www.youtube.com/watch?v=v2gD8BHOaX4&list=RDCMUCvKRFNawVcuz4b9ihUTApCg&index=2
 
+
+
+# ChatGPT
+prompt 1:
+
+```
+Write a sales letter for SAAS Product That Edits Video Using AI
+```
+
+promt 2, Based on Topics and strategies:
+
+```
+Topic: SAAS Product That Edits Video Using AI
+
+You are a professional copywriter, create a one page sales letter about the topic above using these strategies:
+
+- Use strong persuasive language
+- Use short sentences and simple terms, make it easy to read
+- Ask questions to transition between paragraphs
+- Back up main points with figures, evidences and examples
+- Speak directly to reader, make it personal
+
+The goal and call to action for this content is to: Sign up for the newsletter
+```
+
+prompt 3:
+```
+can you rewrite this in a more informal tone and add some humour
+```
+
+
+
 P.S. As I followed the above tutorial, I wanted to document my process in order to help clarify my understanding. If you spot any mistakes, please let me know.
