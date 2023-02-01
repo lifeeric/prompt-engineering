@@ -253,6 +253,8 @@ prompt 3:
 can you rewrite this in a more informal tone and add some humour
 ```
 
+Tutorial: https://www.youtube.com/watch?v=bBiTR_1sEmI
+
 
 
 P.S. As I followed the above tutorial, I wanted to document my process in order to help clarify my understanding. If you spot any mistakes, please let me know.
