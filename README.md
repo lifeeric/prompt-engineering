@@ -3,7 +3,7 @@
 Learn GPT-3 Prompt engineering step by step
 
 
-[Playground to see](https://platform.openai.com/playground?mode=complete&model=text-davinci-002)
+[Playground to test](https://platform.openai.com/playground?mode=complete&model=text-davinci-002)
 
 
 ## text-davinci-002
