@@ -7,7 +7,7 @@ Cheat sheet of GPT-3 Prompt engineering
 ## text-davinci-002
 Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction in order to give you the result, so we'll be looking at a few examples:
 
-1. [Summarization/Paraphrasing](#"Summarization/Paraphrasing")
+1. [Summarization/Paraphrasing](Summarization/Paraphrasing)
 2. [Classification](#)
 3. [Rewriting](#)
 4. [Keyword extraction, named entity recognition, dates, etc..](#)
