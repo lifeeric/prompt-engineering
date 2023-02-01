@@ -221,3 +221,6 @@ The Irish Bee Conservation Project, Ireland, Apis mellifera, Varroa mite, 2019, 
 
 
 Tutorial to follow up: https://www.youtube.com/watch?v=67Ugw_l1md8&t=581s
+Learn about Zero-Shot, One-Shot, and a Few-Shot: https://www.youtube.com/watch?v=v2gD8BHOaX4&list=RDCMUCvKRFNawVcuz4b9ihUTApCg&index=2
+
+P.S. As I followed the above tutorial, I wanted to document my process in order to help clarify my understanding. If you spot any mistakes, please let me know.
