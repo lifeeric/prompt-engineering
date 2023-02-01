@@ -1,6 +1,6 @@
 
-# Prompt Engineeering GPT-3
-Cheat sheet of GPT-3 Prompt engineering
+# Prompt Engineering GPT-3 
+Learn GPT-3 Prompt engineering step by step
 
 
 [Playground to see](https://platform.openai.com/playground?mode=complete&model=text-davinci-002)
