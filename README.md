@@ -7,10 +7,10 @@ Cheat sheet of GPT-3 Prompt engineering
 ## text-davinci-002
 Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction in order to give you the result, so we'll be looking at a few examples:
 
-1. [Summarization/Paraphrasing](Summarization/Paraphrasing)
+1. [Summarization/Paraphrasing](#summarization/paraphrasing)
 2. [Classification](#)
-3. [Rewriting](#)
-4. [Keyword extraction, named entity recognition, dates, etc..](#)
+3. [Rewriting](#rewriting)
+4. [Keyword extraction, named entity recognition, dates, etc..](#Keyword-extraction-named-entity-recognition-date)
 
 
 
@@ -80,30 +80,6 @@ You'll get shorter output.
 **But if you increase the temperature, you also need to remove the word `CONSICE` and `very concisely` in order to get a completely different output.**
 
 
-### 4) Keyword extraction, named entity recognition, dates
- let's extract named entity and dates
-
-Syntax Example:
-
-```
-Perform NER and date extraction from the following article:
-
-ARTICLE
-<Your article here>
-
-LIST ALL NAMED ENTITIES AND DATES:
-```
-
-Real Example:
-
-```
-Perform NER and date extractio from the following article:  ARTICLE  The Irish Bee Conservation Project is a charitable organisation in Ireland that seeks to conserve all native Irish bee species. It has four "pillars of support" in its work: providing habitats, increasing biodiversity, holding education events and performing research into the decline of bee species.[1] Species of bee in Ireland include the honeybee (Apis mellifera), 21 species of bumblebee and 78 species of solitary bee.[2]  History  The Irish Bee Conservation Project (IBCP) grew out of a research project looking at honeybees and the Varroa mite and was formed in 2019 as a not for profit private company limited by guarantee. That same year it designed and installed its first honeybee "lodges" in Fota Wildlife Park, County Cork.[1]  In 2021, the Irish Bee Conservation Project registered as a charity with the Charities Regulator of Ireland.[3]  LIST ALL NAMED ENTITIES AND DATES:
-```
-
-***OUTPUT***
-```
-The Irish Bee Conservation Project, Ireland, Apis mellifera, Varroa mite, 2019, Fota Wildlife Park, County Cork, 2021
-```
 
 
 ### 3) Rewrite
@@ -207,3 +183,29 @@ History  De Irish Bee Conservation Project (IBCP) grow from wan research project
 In 2021, de Irish Bee Conservation Project register as wan charity with de Charities Regulator of Ireland.3
 ```
 it converts some words like `the` to `de` and so on...
+
+
+### 4) Keyword extraction, named entity recognition, dates
+ let's extract named entity and dates
+
+Syntax Example:
+
+```
+Perform NER and date extraction from the following article:
+
+ARTICLE
+<Your article here>
+
+LIST ALL NAMED ENTITIES AND DATES:
+```
+
+Real Example:
+
+```
+Perform NER and date extractio from the following article:  ARTICLE  The Irish Bee Conservation Project is a charitable organisation in Ireland that seeks to conserve all native Irish bee species. It has four "pillars of support" in its work: providing habitats, increasing biodiversity, holding education events and performing research into the decline of bee species.[1] Species of bee in Ireland include the honeybee (Apis mellifera), 21 species of bumblebee and 78 species of solitary bee.[2]  History  The Irish Bee Conservation Project (IBCP) grew out of a research project looking at honeybees and the Varroa mite and was formed in 2019 as a not for profit private company limited by guarantee. That same year it designed and installed its first honeybee "lodges" in Fota Wildlife Park, County Cork.[1]  In 2021, the Irish Bee Conservation Project registered as a charity with the Charities Regulator of Ireland.[3]  LIST ALL NAMED ENTITIES AND DATES:
+```
+
+***OUTPUT***
+```
+The Irish Bee Conservation Project, Ireland, Apis mellifera, Varroa mite, 2019, Fota Wildlife Park, County Cork, 2021
+```
