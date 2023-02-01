@@ -202,10 +202,20 @@ LIST ALL NAMED ENTITIES AND DATES:
 Real Example:
 
 ```
-Perform NER and date extractio from the following article:  ARTICLE  The Irish Bee Conservation Project is a charitable organisation in Ireland that seeks to conserve all native Irish bee species. It has four "pillars of support" in its work: providing habitats, increasing biodiversity, holding education events and performing research into the decline of bee species.[1] Species of bee in Ireland include the honeybee (Apis mellifera), 21 species of bumblebee and 78 species of solitary bee.[2]  History  The Irish Bee Conservation Project (IBCP) grew out of a research project looking at honeybees and the Varroa mite and was formed in 2019 as a not for profit private company limited by guarantee. That same year it designed and installed its first honeybee "lodges" in Fota Wildlife Park, County Cork.[1]  In 2021, the Irish Bee Conservation Project registered as a charity with the Charities Regulator of Ireland.[3]  LIST ALL NAMED ENTITIES AND DATES:
+Perform NER and date extractio from the following article:  
+
+ARTICLE  
+The Irish Bee Conservation Project is a charitable organisation in Ireland that seeks to conserve all native Irish bee species. It has four "pillars of support" in its work: providing habitats, increasing biodiversity, holding education events and performing research into the decline of bee species.[1] Species of bee in Ireland include the honeybee (Apis mellifera), 21 species of bumblebee and 78 species of solitary bee.[2]  History  The Irish Bee Conservation Project (IBCP) grew out of a research project looking at honeybees and the Varroa mite and was formed in 2019 as a not for profit private company limited by guarantee. That same year it designed and installed its first honeybee "lodges" in Fota Wildlife Park, County Cork.[1]  In 2021, the Irish Bee Conservation Project registered as a charity with the Charities Regulator of Ireland.[3]  
+
+LIST ALL NAMED ENTITIES AND DATES:
 ```
 
 ***OUTPUT***
 ```
 The Irish Bee Conservation Project, Ireland, Apis mellifera, Varroa mite, 2019, Fota Wildlife Park, County Cork, 2021
 ```
+
+
+
+
+Tutorial to follow up: https://www.youtube.com/watch?v=67Ugw_l1md8&t=581s
