@@ -3,6 +3,8 @@
 Cheat sheet of GPT-3 Prompt engineering
 
 
+[Playground to see](https://platform.openai.com/playground?mode=complete&model=text-davinci-002)
+
 
 ## text-davinci-002
 Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction in order to give you the result, so we'll be looking at a few examples:
