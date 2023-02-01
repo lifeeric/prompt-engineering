@@ -5,7 +5,7 @@ Cheat sheet of GPT-3 Prompt engineering
 
 
 ## text-davinci-002
-Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction in order to give you the result, so we'll be looking at few example:
+Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction in order to give you the result, so we'll be looking at a few examples:
 
 1. [Summarization/Paraphrasing](#"Summarization/Paraphrasing")
 2. [Classification](#)
@@ -15,13 +15,13 @@ Text-davinci-002 is Instruct Model which is fine-tune to follow the instruction 
 
 
 #### 1) Summarization/Paraphrasing
-let's start with the first task which is summarization or paraphrasing. we need to give an imperative verb (Command, request word), so I'll just write `summarize` at the begining which tells what to do with the instruction and then put the actual article. 
+let's start with the first task which is summarization or paraphrasing. we need to give an imperative verb (Command, request word), so I'll just write `summarize` at the beginning which tells what to do with the instruction, and then put the actual article. 
 
-if you capatialize something, it is different set of token which kinda tells the model like pay attention to it, it's not a normal language and not a part of the article. so we all aslo  `ARTICLE` before the article.
+if you capitalize something, it is a different set of tokens which kinda tells the model like pay attention to it, it's not a normal language and not a part of the article. so we will aslo  add `ARTICLE` before the article.
 
 and at the end just write `SUMMARY:`
 
-***Note:*** we need to turn the emperature down to  0(zero), so zero makes the model deterministic which mean we'll get the same output everytime.
+***Note:*** we need to turn the temperature down to  0(zero), so zero makes the model deterministic which means we'll get the same output every time.
 
 Syntax Example:
 
@@ -60,10 +60,10 @@ SUMMARY:
 The Irish Bee Conservation Project is a charitable organisation that seeks to conserve all native Irish bee species. It has four "pillars of support" in its work: providing habitats, increasing biodiversity, holding education events and performing research into the decline of bee species. The organisation was formed in 2019 and registered as a charity in 2021.
 ```
 
-***sometime the temperature no longer has the same impact. and you'll get different output each time.***
+*** sometimes the temperature no longer has the same impact. and you'll get different output each time.***
 
 
-You can modify the instruction with adjectives like `very concisely` and `CONCISE` , so it will activate the different part of GPT-3 model, it says what does `CONCISE` mean, make it smaller.
+You can modify the instruction with adjectives like `very concisely` and `CONCISE`, so it will activate the different part of GPT-3 model, it says what `CONCISE` mean, make it smaller.
 Syntax Example:
 
 ```
@@ -77,11 +77,11 @@ CONCISE SUMMARY:
 You'll get shorter output.
 
 
-**But if you increase the temperature, you also need to remove the word `CONSICE` and `very concisely` in order to get completely different output.**
+**But if you increase the temperature, you also need to remove the word `CONSICE` and `very concisely` in order to get a completely different output.**
 
 
 ### 4) Keyword extraction, named entity recognition, dates
- let's extrat 
+ let's extract named entity and dates
 
 Syntax Example:
 
@@ -167,7 +167,7 @@ In 2021, the Irish Bee Conservation Project became an official charity. This mea
 
 <br >
 
-***You can also translate it into a different langugae like German, Spanish..***
+***You can also translate it into a different language like German, Spanish..***
 
 ```
 Rewrite the following Wikipedia article in german:
